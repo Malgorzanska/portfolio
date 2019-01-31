@@ -1,0 +1,39 @@
+@import "../modules/all";
+
+.container-preloader{
+  position: fixed;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+  z-index: 1000;
+  background: #000;
+  .preloader {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+  }
+  .preloader-item {
+    position: absolute;
+    left: 6px;
+    width: 13px;
+    background: #fff;
+    animation: preloader 1.3s cubic-bezier(0, 0.5, 0.5, 1.5) infinite;
+  }
+  .preloader div:nth-child(1) {
+    left: 6px;
+    animation-delay: -0.20s;
+  }
+  .preloader div:nth-child(2) {
+    left: 26px;
+    animation-delay: -0.10s;
+  }
+  .preloader div:nth-child(3) {
+    left: 45px;
+  }
+
+}
+
