@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" name="viewport" content="initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Junior front-end developer is looking for a job.">
     <meta name="keywords" content="HTML,CSS,JavaScript,first job,junior front-end, it ">
     <meta name="author" content="Malgorzata Dobrzanska">
     <title>Portfolio - Małgorzata Dobrzańska</title>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/main.css" />
 </head>
 <body>
@@ -19,6 +21,113 @@
     </div>
 
     <div class="container">
+        <header class="header">
+            <div class="logo"><h1>Małgorzata Dobrzańska</h1></div>
+
+            <nav class="nav">
+                <div class="hamburger-wrapper">
+                    <div class="hamburger-icon"></div>
+                </div>
+                <ul class="nav-list">
+                    <li class="nav-list-item active">
+                        <a class="menu-link nav-control" href="#aboutMe">About me</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a class="menu-link nav-control" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a class="menu-link nav-control" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a class="menu-link nav-control" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main">
+            <section class="about-me nav-panel active" id="aboutMe">
+                <div class="about-me-container active">
+                    <h2 class="about-me--header">
+                        Hello!
+                    </h2>
+                </div>
+            </section>
+
+            <section class="skills nav-panel" id="skills">
+                <div class="skills--container">
+                    <div class="row">
+                        <img class="skills-img" src="/images/html-5.png" alt="Html icon">
+                        <img class="skills-img" src="/images/css-3.png" alt="CSS icon">
+                        <img class="skills-img" src="/images/sass.png" alt="SASS icon">
+                        <img class="skills-img" src="/images/js.png" alt="JS icon">
+                        <img class="skills-img" src="/images/photoshop.png" alt="Photoshop icon">
+                        <img class="skills-img" src="/images/wordpress.png" alt="Wordpress icon">
+                        <img class="skills-img" src="/images/react.png" alt="React icon">
+                        <img class="skills-img" src="/images/git.png" alt="GIT icon">
+                        <img class="skills-img" src="/images/gulp.png" alt="Gulp icon">
+                        <img class="skills-img" src="/images/webpack.png" alt="Webpack icon">
+                    </div>
+                    <div class="row skills--description">
+                        <p class="skills--description-text"></p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="projects nav-panel" id="projects">
+                    <div class="projects--container">
+                        <article class="projects--article ">
+                            <div class="cls-btn">&times;</div>
+                            <div class="project-tile project-tile1 overlay">
+                                <p class="project-title">Selene website</p>
+                                <div class="link-box">
+                                    <a class='project-link' href="https://github.com/Malgorzanska/Selene-website" target="_blank">CODE</a>
+                                    <a class='project-link' href="https://malgorzanska.github.io/Selene-website/" target="_blank">LIVE</a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="projects--article">
+                            <div class="cls-btn">&times;</div>
+                            <div class="project-tile project-tile2 overlay">
+                                <p class="project-title">Dream destination list</p>
+                                <div class="link-box">
+                                    <a class='project-link'>CODE</a>
+                                    <a class='project-link'>LIVE</a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="projects--article">
+                            <div class="cls-btn">&times;</div>
+                            <div class="project-tile project-tile3 overlay">
+                                <p class="project-title">Botanic design studio website</p>
+                                <div class="link-box">
+                                    <a class='project-link'>CODE</a>
+                                    <a class='project-link'>LIVE</a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="projects--article">
+                            <div class="cls-btn">&times;</div>
+                            <div class="project-tile project-tile4 overlay">
+                                <p class="project-title">This portfolio</p>
+                                <div class="link-box">
+                                    <a class='project-link'>CODE</a>
+                                    <a class='project-link'>LIVE</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+            </section>
+
+
+            <section class="contact nav-panel" id="contact">
+                <div class="contact--container">
+                    CONTACT SECTION
+                </div>
+            </section>
+
+        </main>
 
 
     </div>
