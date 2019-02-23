@@ -1,0 +1,39 @@
+@import "../modules/all";
+@import "../modules/variables";
+
+
+.about-me-container{
+  height: 80vh;
+  width: 100%;
+  background-color: #d1baac;
+ // background-size: cover;
+  text-align: center;
+ // font-size: 1.7rem;
+  display: flex;
+  flex-direction: column;
+ // align-items: center;
+  justify-content: center;
+
+  .about-me--header{
+    font-size: 4.5rem;
+    color: rgba(120,30,40,0.8);
+    display: inline-block;
+    margin: 2rem;
+  }
+  .about-me--content{
+    margin: 0 2rem;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+  }
+}
+
+span {
+  border-right: .05em solid;
+  animation: showText 1s steps(1) infinite;
+}
+
+@keyframes showText {
+  50% {
+    border-color: transparent;
+  }
+}
